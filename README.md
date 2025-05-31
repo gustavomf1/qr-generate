@@ -83,7 +83,7 @@ docker run --env-file .env -p 8080:8080 qrcode-generator:X.X
 
 ### `POST /qrcode`
 
-Endpoint responsável por gerar um QR Code a partir do texto fornecido e armazená-lo no AWS S3. O QR Code gerado possui formato PNG e tamanho de 200x200 pixels.
+Endpoint responsável por gerar um QR Code a partir do texto fornecido e armazená-lo no AWS S3.
 
 #### 🔸 Parâmetros da Requisição
 
